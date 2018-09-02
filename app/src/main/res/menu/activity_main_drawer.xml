@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeNM"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Doctor's Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/addDoctorNM"
+                android:icon="@drawable/ic_action_add"
+                android:title="Add New Doctor" />
+            <item
+                android:id="@+id/showDoctorsNM"
+                android:icon="@drawable/ic_action_doctor"
+                android:title="Show All Doctors" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Medical History">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/addHistoryNM"
+                android:icon="@drawable/ic_action_add"
+                android:title="Add New History" />
+            <item
+                android:id="@+id/showHistoryNm"
+                android:icon="@drawable/ic_action_history"
+                android:title="Show All History" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
